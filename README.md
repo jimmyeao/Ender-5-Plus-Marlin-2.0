@@ -1,6 +1,8 @@
 # Marlin 3D Printer Firmware
 # JW Edits - Tweaked for the Ender 5 Plus with a SKR 1.3, TMC 2209s, BTT TFT 3.5 display and direct drive.
 
+NOTE THIS HAS YET TO BE TESTED - USE AT YOUR OWN RISK!!!
+
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
