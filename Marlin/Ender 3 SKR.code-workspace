@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Marlin-CrealityDwin_2.0",
+			"path": "..\\..\\Marlin-CrealityDwin_2.0"
+		},
+		{
+			"path": "..\\..\\BIGTREETECH-TouchScreenFirmware-master"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
