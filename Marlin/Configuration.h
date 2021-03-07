@@ -70,7 +70,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "Jimmy White SKR 1.3 Config 20/06/2020" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "Jimmy White Ender 5 SKR 1.3 Config 20/06/2020" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -499,9 +499,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define  DEFAULT_Kp 26.40
-    #define  DEFAULT_Ki 2.25
-    #define  DEFAULT_Kd 77.59
+    #define  DEFAULT_Kp 54.32
+    #define  DEFAULT_Ki 5.42
+    #define  DEFAULT_Kd 136.02
   #endif
 #endif // PIDTEMP
 
@@ -540,9 +540,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 96.98
-  #define DEFAULT_bedKi 7.47
-  #define DEFAULT_bedKd 859.53
+  #define DEFAULT_bedKp 98.87
+  #define DEFAULT_bedKi 7.64
+  #define DEFAULT_bedKd 853.11
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -565,7 +565,7 @@
  * *** IT IS HIGHLY RECOMMENDED TO LEAVE THIS OPTION ENABLED! ***
  */
 #define PREVENT_COLD_EXTRUSION
-#define EXTRUDE_MINTEMP 170
+#define EXTRUDE_MINTEMP 180
 
 /**
  * Prevent a single extrusion longer than EXTRUDE_MAXLENGTH.
