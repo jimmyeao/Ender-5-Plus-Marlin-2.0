@@ -499,9 +499,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define  DEFAULT_Kp 54.32
-    #define  DEFAULT_Ki 5.42
-    #define  DEFAULT_Kd 136.02
+    #define  DEFAULT_Kp 36.36
+    #define  DEFAULT_Ki 3.35
+    #define  DEFAULT_Kd 102.15
   #endif
 #endif // PIDTEMP
 
@@ -741,7 +741,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 415 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 427.84 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -986,7 +986,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -30.75, 0, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { 44, 0, 0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1122,8 +1122,8 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 327
-#define Y_BED_SIZE 330
+#define X_BED_SIZE 350  
+#define Y_BED_SIZE 350
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
@@ -1131,7 +1131,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 410
+#define Z_MAX_POS 400
 
 /**
  * Software Endstops
